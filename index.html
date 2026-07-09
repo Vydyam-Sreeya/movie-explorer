@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Explorer</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+
+    <nav>
+
+        <h2>🎬 Movie Explorer</h2>
+
+        <button id="savedBtn">
+            My Collection
+        </button>
+
+    </nav>
+
+
+    <!-- Hero -->
+
+    <section class="hero">
+
+        <h1>Find Your Favorite Movies</h1>
+
+        <p>Search thousands of movies and save them to your personal collection.</p>
+
+        <div class="search-box">
+
+            <input type="text" id="searchInput" placeholder="Search Movie...">
+
+            <button id="searchBtn">
+                Search
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- Search Results -->
+
+    <section>
+
+        <h2 class="heading">
+            Search Results
+        </h2>
+
+        <div id="movieContainer">
+
+        </div>
+
+    </section>
+
+
+    <!-- Saved Movies -->
+
+    <section>
+
+        <h2 class="heading">
+            My Movie Collection
+        </h2>
+
+        <div id="savedMovies">
+
+        </div>
+
+    </section>
+
+
+
+    <!-- Update Modal -->
+
+    <div id="editModal" class="modal">
+
+        <div class="modal-content">
+
+            <span id="close">&times;</span>
+
+            <h2>Update Movie</h2>
+
+            <select id="movieStatus">
+
+                <option value="Watching">Watching</option>
+
+                <option value="Completed">Completed</option>
+
+                <option value="Want to Watch">Want to Watch</option>
+
+            </select>
+
+            <br><br>
+
+            <button id="updateBtn">
+                Update
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
