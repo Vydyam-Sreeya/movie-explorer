@@ -2,7 +2,7 @@
 
 const API_KEY = "59a9ba1e";
 const OMDB_URL = "https://www.omdbapi.com/";
-const JSON_URL = "http://localhost:3000/movies";
+const JSON_URL = "https://6a4f94b8f45d5352b6119eb0.mockapi.io/movies";
 
 // HTML Elements
 const searchBtn = document.getElementById("searchBtn");
